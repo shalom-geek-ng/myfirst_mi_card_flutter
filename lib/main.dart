@@ -15,10 +15,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Column(
-          children: [
-            
-          ],
+        body:
+        SafeArea(
+          child: Column(
+            children: [
+              CircleAvatar(
+                radius: 50.0,
+              )
+            ],
+          ),
         )
              ),
     );
