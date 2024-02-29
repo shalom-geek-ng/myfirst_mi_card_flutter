@@ -17,11 +17,11 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body:
         SafeArea(
-          child: Column(
+          child: Row(
            // mainAxisSize: MainAxisSize.min,
             // verticalDirection: VerticalDirection.up,
             //  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-           crossAxisAlignment: CrossAxisAlignment.stretch,
+           // crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
             Container(
             color: Colors.white,
@@ -29,6 +29,10 @@ class MyApp extends StatelessWidget {
             height: 100.0,
             child: Text("Container 1"),
             ),
+
+              SizedBox(
+                width: 30.0,
+              ),
               Container(
                 width: 100.0,
                 height: 100,
