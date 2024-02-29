@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               CircleAvatar(
+                backgroundColor: Colors.red,
                 radius: 50.0,
               )
             ],
