@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
            // mainAxisSize: MainAxisSize.min,
             // verticalDirection: VerticalDirection.up,
             //  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-           crossAxisAlignment: CrossAxisAlignment.end,
+           crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
             Container(
             color: Colors.white,
@@ -41,11 +41,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.red,
                 child: Text("Container 3"),
               ),
-              Container(
-                width: double.infinity,
-                height: 100,
-               
-              )
+
             ],
           ),
         )
