@@ -20,7 +20,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               CircleAvatar(
-                backgroundColor: Colors.red,
+                child: Image(
+                  image: AssetImage("images/FB_IMG_1662210952422.jpg"),
+                  
+                ),
+                backgroundColor: Colors.blue,
                 radius: 50.0,
               )
             ],
