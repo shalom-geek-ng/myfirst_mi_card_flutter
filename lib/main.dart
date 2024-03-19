@@ -45,7 +45,17 @@ class MyApp extends StatelessWidget {
            Container(
              child: Row(
                children: [
-                 Icon()
+                 Icon(Icons.phone_in_talk,
+                 color: Colors.white,),
+                 Text('+2348166649897', style:
+                   TextStyle(
+                     color: Colors.teal.shade900,
+                     fontSize: 20.0,
+                     fontWeight: FontWeight.bold,
+                     fontFamily:
+
+                   ),)
+
                ],
              ),
            ) ],
