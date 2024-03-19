@@ -43,16 +43,21 @@ class MyApp extends StatelessWidget {
                ),
               ),
            Container(
+             color: Colors.white,
+             margin: EdgeInsets.symmetric(vertical: 10.0,
+             horizontal: 25.0),
+             padding: EdgeInsets.symmetric(vertical: 15.0,
+             horizontal: 5.0),
              child: Row(
                children: [
                  Icon(Icons.phone_in_talk,
-                 color: Colors.white,),
+                 color: Colors.teal.shade900,),
                  Text('+2348166649897', style:
                    TextStyle(
                      color: Colors.teal.shade900,
                      fontSize: 20.0,
                      fontWeight: FontWeight.bold,
-                     fontFamily:
+                     fontFamily: 'SourceSans3'
 
                    ),)
 
