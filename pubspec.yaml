@@ -83,6 +83,9 @@ flutter:
       - family: SourceSans3
         fonts:
             - asset: fonts/SourceSans3-VariableFont_wght.ttf
+      - family: Madimi
+        fonts:
+          - asset: fonts/MadimiOne-Regular.ttf
 
 
 
